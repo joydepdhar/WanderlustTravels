@@ -539,3 +539,220 @@ form,
   font-size: 16px;
   font-weight: 300;
 }
+
+/* Responsive Media  Queries  for mobile max-width 576*/
+@media screen and (max-width:576px) {
+  body {
+    width: 100%;
+    padding: 10px;
+  }
+
+  /* Nav Bar Responsive Start Here */
+  nav {
+    margin: 20px;
+  }
+
+  nav .nav-icon {
+    gap: 10px;
+  }
+
+  nav .nav-item a {
+    display: none;
+  }
+
+  .nav-icon h2 {
+    font-weight: 800;
+    font-size: 1.31rem;
+    color: #131318;
+  }
+
+  .nav-item {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .nav-i {
+    display: block;
+  }
+
+  /* banner  Responsive End Here */
+  .banner-contaienr .content p {
+    font-size: 0.875rem;
+    margin-bottom: 32px;
+  }
+
+  .banner-input .in-btn {
+    margin: 10px;
+    width: 90%;
+    padding: 16px;
+  }
+
+  .banner {
+    width: 335px;
+    height: 800px;
+    margin: 0 auto;
+  }
+
+  .banner .banner-container {
+    padding: 30px 15px;
+  }
+
+  .banner .banner-content h2 {
+    color: #fff;
+    font-size: 1.35rem;
+    font-weight: 800;
+    margin-bottom: 8px;
+  }
+
+  .banner-button {
+    width: 90%;
+  }
+
+  /* Tours Responsive Start Here */
+  .tours {
+    flex-direction: column;
+    margin-top: 24px;
+  }
+
+  .tours-content,
+  .tour-img {
+    width: 100%;
+    padding: 0px 20px;
+    text-align: justify;
+  }
+
+  .tour-title {
+    font-size: 1.22rem;
+    margin-bottom: 16px;
+  }
+
+  .tour-content ul {
+    padding-left: 28px;
+  }
+
+  .tours-content button {
+    margin-bottom: 24px;
+
+  }
+
+
+  /* Choose Your Destination style start here */
+  .img-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 1fr;
+  }
+
+  .choose-contents {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto 48px auto;
+  }
+
+  .choose-title {
+    font-size: 20px;
+  }
+
+  .img-container img {
+    width: 100%;
+    padding: 0 20px;
+    text-align: justify;
+  }
+
+  .grid-item-1 {
+    grid-column: 1 / span 12;
+
+  }
+
+  .grid-item-2 {
+    grid-column: 1/ span 12;
+
+  }
+
+  .grid-item-3 {
+    grid-column: 1 / span 12;
+  }
+
+  .grid-item-4 {
+    grid-column: 1 / span 12;
+  }
+
+  .grid-item-5 {
+    grid-column: 1 / span 12;
+  }
+
+  .grid-item-6 {
+    grid-column: 1 / span 12;
+  }
+
+  .grid-item-7 {
+    grid-column: 1 / span 12;
+  }
+
+  /* Choose Us section style Star here */
+  .ChooseUs {
+    margin: 100px 25px;
+  }
+
+  .head-container {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto 48px auto;
+  }
+
+  .ChooseUs-container {
+    flex-direction: column;
+  }
+
+  .ChooseUs-hotel {
+    width: 100%;
+  }
+
+  .ChooseUs-service {
+    width: 100%;
+    margin: 20px 0;
+  }
+
+  .ChooseUs-price {
+    width: 100%;
+  }
+
+  /* News Seaction Responsive Start here */
+  .news {
+    gap: 22px;
+    padding: 40px;
+    flex-direction: column;
+  }
+
+  .news-container,
+  .news-container h3,
+  .news-container form,
+  .img-content {
+    width: 100%;
+  }
+
+  .img-content img {
+    width: 100%;
+  }
+
+  /* Customer Comment */
+  .customer {
+    flex-direction: column;
+  }
+
+  /* Footer Section Start Now */
+  .footer {
+    padding: 24px;
+    padding: 30px;
+
+  }
+
+  .footer hr {
+    width: 100%;
+    margin: 20px auto;
+  }
+
+  .footer-description {
+    width: 100%;
+  }
+}
