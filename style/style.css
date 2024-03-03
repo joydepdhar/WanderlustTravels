@@ -1,0 +1,541 @@
+/* Gooogle Font Link */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900&display=swap');
+
+/* common Sheard Style Start Here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+}
+
+body {
+  max-width: 1175px;
+  margin: 0 auto;
+}
+
+/* Nav Style Start Here */
+nav {
+  margin: 60px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .nav-icon {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+
+.nav-item {
+  display: flex;
+}
+
+.nav-icon h2 {
+  font-weight: 800;
+  font-size: 2.24rem;
+  color: #131318;
+}
+
+nav .nav-item a,
+i {
+  color: #424247;
+  margin-left: 44px;
+  font-size: 1.10rem;
+  text-decoration: none;
+  font-weight: 600;
+
+}
+
+.nav-i {
+  display: none;
+}
+
+nav .nav-item .color {
+  color: #FF5400
+}
+
+.nav-item>a:hover {
+  color: #FF5400;
+  font-weight: 500;
+}
+
+/* Banner section Style Start here */
+
+.banner {
+  background-image:
+    linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),
+    url(../Images/Group13\ .png);
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+  border-radius: 16px;
+}
+
+.banner .banner-container {
+  text-align: center;
+  border-radius: 16px;
+  padding: 106px 185px;
+}
+
+
+.banner-container .banner-content h2 {
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+
+.banner-container .banner-content p {
+  margin-bottom: 64px;
+  color: #FFF;
+}
+
+.banner-input {
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.30);
+  padding: 8px;
+}
+
+.banner-input .in-btn {
+  width: 174px;
+  height: 52px;
+  border-radius: 8px;
+  margin-right: 24px;
+  padding: 16px;
+  border: none;
+  outline: none;
+  background: #fff;
+  color: rgba(19, 19, 24, 0.50);
+}
+
+.banner-input .in-btn::placeholder {
+  color: rgba(19, 19, 24, 0.50);
+  padding: 16px;
+}
+
+.banner-button {
+  height: 52px;
+  width: 174px;
+  border-radius: 8px;
+  color: white;
+  background-color: #FF5400;
+  text-align: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.banner-button:hover {
+  color: beige;
+  border: 2px solid aquamarine;
+  font-weight: 800;
+}
+
+.banner-input i {
+  margin-right: 12px;
+  color: white;
+}
+
+/* Banner Style End Here */
+
+
+/* Tours Section Style Here */
+.tours {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.tours-content,
+.tour-img {
+  width: 48%;
+}
+
+.tour-title {
+  color: #131318;
+  font-weight: 800;
+  margin-bottom: 24px;
+  font-size: 2.22rem;
+}
+
+.tour-description {
+  color: #5A5A5D;
+  line-height: 26px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.tours-content ul {
+  padding-left: 28px;
+}
+
+.tours-content li {
+  color: #5A5A5D;
+  line-height: 26px;
+  margin-bottom: 16px;
+}
+
+.tours-content button {
+  color: #FFF;
+  border-radius: 8px;
+  font-size: 1.22rem;
+  font-weight: 800;
+  background: #FF5400;
+  padding: 15px 35px;
+  border: none;
+  cursor: pointer;
+
+
+}
+
+.tour-img img {
+  width: 100%;
+}
+
+/* Tours Section Style Here */
+
+/* Choose Your Destination Section Style Start here */
+.choose-container {
+  margin-top: 100px;
+}
+
+.choose-contents {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 44px;
+}
+
+.choose-title {
+  font-size: 40px;
+  color: #131318;
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+
+.choose-description {
+  width: 90%;
+  margin: 0 auto;
+  color: #5A5A5D;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.img-container {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.grid-item-1 {
+  grid-column: 1 / span 6;
+
+}
+
+.grid-item-2 {
+  grid-column: 7/ span 6;
+
+}
+
+.grid-item-3 {
+  grid-column: 1 / span 4;
+}
+
+.grid-item-4 {
+  grid-column: 5 / span 5;
+}
+
+.grid-item-5 {
+  grid-column: 10 / span 3;
+}
+
+.grid-item-6 {
+  grid-column: 1 / span 5;
+}
+
+.grid-item-7 {
+  grid-column: 6 / span 7;
+}
+
+
+/* Choose Your Destination Section Style End here */
+
+
+/* Why Choose Us section style Start here */
+
+.ChooseUs {
+  margin: 100px 135px;
+}
+
+.head-container {
+  margin: 0 auto 48px auto;
+  /* max-width: 600px; */
+  width: 50%;
+  text-align: center;
+}
+
+.ChooseUs-container img {
+  width: 64px;
+}
+
+.ChooseUs-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.ChooseUs-hotel {
+  width: 50%;
+  background-color: #fbb46329;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.ChooseUs-service {
+  width: 48%;
+  background-color: #29cdf621;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.ChooseUs-price {
+  width: 48%;
+  margin: 50px auto 0 auto;
+  background-color: #fbb46329;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.ChooseUs-title {
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+  margin: 25px 0;
+}
+
+.ChooseUs-title-1 {
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+  margin: 25px 0;
+}
+
+.ChooseUs-description {
+  color: #5A5A5D;
+  line-height: 26px;
+}
+
+.ChooseUs-price i {
+  font-size: 64px;
+}
+
+/* Newsletter Section Style Start Here */
+.news {
+  gap: 28px;
+  margin: 100px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.news-container {
+  width: 45%;
+  padding: 30px;
+  color: #131318;
+  font-weight: 800;
+  margin-bottom: 16px;
+  padding: 34px;
+  border-radius: 16px;
+  border: 1px solid #FF5400;
+}
+
+.news-title {
+  color: #131318;
+  font-weight: 800;
+  margin-bottom: 24px;
+  font-size: 2.22rem;
+}
+
+.news-description {
+  color: #5A5A5D;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+
+.img-content {
+  width: 65%;
+}
+
+.img-content img {
+  max-width: 100%;
+  height: 100%;
+}
+
+.save-up {
+  width: 320px;
+  height: 120px;
+  color: #FFF;
+  position: relative;
+  text-align: center;
+  border-radius: 16px;
+  background: #FF5400;
+  border: 1px solid red;
+}
+
+.save-up p {
+  color: #FFF;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.save-up-70 {
+  color: #FFF;
+  font-size: 32px;
+  font-weight: 800;
+}
+
+form,
+.news-input {
+  width: 100%;
+  display: block;
+  margin-bottom: 16px;
+}
+
+.news-input {
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 15px 18px;
+  border-radius: 9px;
+  color: rgba(19, 19, 24, 0.30);
+  background: rgba(19, 19, 24, 0.05);
+
+}
+
+.sub-btn {
+  background: #FF5400;
+  color: #FFF;
+  width: 100%;
+  display: block;
+  padding: 15px 0;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+}
+
+.newsletter-image {
+  width: 672px;
+  height: 422px;
+  border-radius: 16px;
+  background: url('../Images/Rectangle\ 8\ \(1\).png'), lightgray 50%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.saveup {
+  position: relative;
+  top: 53%;
+  left: 30%;
+  text-align: center;
+  width: 324px;
+  height: 120px;
+  transform: rotate(-20deg);
+  border-radius: 16px;
+  background: #FF5400;
+  font-weight: 800;
+  color: white;
+}
+
+.saveup p {
+  padding-top: 30px;
+}
+
+.saveup h4 {
+  font-size: 40px;
+}
+
+/* customer Sections*/
+.customer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.box {
+  background-color: #ff550032;
+  padding: 30px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.box img {
+  width: 128px;
+  height: 128px;
+  border-radius: 80px;
+}
+
+/* Footer Section Style Start Here */
+.footer {
+  margin: 30px;
+  background: rgba(19, 19, 24, 0.05);
+  padding: 100px;
+  text-align: center;
+}
+
+.footer-logo {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.logo {
+  width: 40px;
+}
+
+.logo-title {
+  color: #131318;
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.footer-description {
+  width: 760px;
+  margin: 0 auto;
+  margin-top: 14px;
+  margin-bottom: 34px;
+  color: #5A5A5D;
+  text-align: center;
+  line-height: 26px;
+}
+
+.social-icon {
+  justify-content: center;
+  display: flex;
+  font-size: 24px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.footer hr {
+  margin: 50px auto;
+  width: 872px;
+}
+
+.footer-copy {
+  color: #131318;
+  font-size: 16px;
+  font-weight: 300;
+}
